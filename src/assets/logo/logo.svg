@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Wordmark: "ink1chen" as a single monospace run.
+
+  textLength pins the run to a fixed width so the mark can't overflow its
+  viewBox when the webfont falls back to a system monospace with different
+  metrics. fill is currentColor so the colour (and its hover transition) is
+  owned by the wrapping <a>, not baked into the file.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 170">
+  <text
+    class="logo-text"
+    x="0"
+    y="137"
+    textLength="745"
+    style="fill: currentColor; font-family: var(--font-cascadia-code), 'Cascadia Code', monospace; font-size: 150px; font-weight: 600; white-space: pre;"
+  >ink1chen</text>
+</svg>
